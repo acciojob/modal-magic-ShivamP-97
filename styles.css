@@ -42,9 +42,7 @@ body {
 }
 
 .modal-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  position: relative;
   padding: 15px;
   border-bottom: 1px solid #ddd;
   background-color: #f2f2f2;
@@ -56,6 +54,9 @@ body {
 }
 
 .close-modal {
+  position: absolute;
+  top: 10px;
+  right: 10px;
   background: none;
   border: none;
   font-size: 20px;
