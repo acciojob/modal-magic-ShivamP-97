@@ -1,13 +1,12 @@
-//your JS code here. If required.
-const openModalBtn = document.querySelector('.open-modal-btn');
+const openModalBtn = document.getElementById('openModal');
 const modalOverlay = document.getElementById('modalOverlay');
-const closeBtn = document.getElementById('closeBtn');
+const closeModalBtn = document.querySelector('.close-modal');
 
 openModalBtn.addEventListener('click', () => {
   modalOverlay.style.display = 'flex';
 });
 
-closeBtn.addEventListener('click', () => {
+closeModalBtn.addEventListener('click', () => {
   modalOverlay.style.display = 'none';
 });
 
