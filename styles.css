@@ -34,6 +34,7 @@ body {
 }
 
 .modal {
+  position: relative;	
   background: #fff;
   width: 400px;
   border-radius: 8px;
@@ -60,6 +61,7 @@ body {
   background: none;
   border: none;
   font-size: 20px;
+  z-index: 10px;	
   cursor: pointer;
 }
 
